@@ -1,0 +1,20 @@
+:root{
+  --bg:#fbf8f5;
+  --accent:#6b4b23; /* royal brown/gold vibe */
+  --muted:#7b6a5a;
+}
+body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--accent)}
+.hero{background:url('hero.jpg') center/cover;padding:80px 20px;color:#fff;display:flex;align-items:center;gap:20px}
+.logo{width:120px;background:#fff;padding:8px;border-radius:10px}
+.hero-text h1{margin:0;font-size:36px;text-shadow:0 2px 8px rgba(0,0,0,0.4)}
+.subtitle{margin:6px 0 12px}
+.cta{background:#25d366;color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:700}
+.section{max-width:1100px;margin:30px auto;padding:0 18px}
+.plan-cards{display:flex;gap:18px;flex-wrap:wrap}
+.card{background:#fff;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,0.06);flex:1;min-width:180px;text-align:center}
+.menu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.menu-item{background:#fff;padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,0.06)}
+.menu-item h3{margin:0 0 6px}
+.price{float:right;color:var(--muted);font-weight:700}
+.desc{color:#6b685f;font-size:14px;margin-top:8px}
+footer{background:var(--accent);color:#fff;text-align:center;padding:18px;margin-top:40px}
